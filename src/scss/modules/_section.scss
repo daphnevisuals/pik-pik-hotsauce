@@ -1,0 +1,506 @@
+.section-content {
+  margin: 65px 50px;
+}
+
+section h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  margin-bottom: 65px;
+  text-transform: uppercase;
+  letter-spacing: 2.06px;
+}
+
+//
+
+// PRODUCTS
+
+//
+
+.section-products {
+  display: flex;
+  justify-content: center;
+  background-color: #fff7f1;
+  padding-bottom: 60px;
+}
+.section-products-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1.47px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.section-products-content h4 {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section-products-content h4 img {
+  width: 8%;
+  display: inline;
+  align-items: center;
+  padding: 0 0 0 8px;
+}
+
+.section-products-content p {
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+// --- SECTION PRODUITS CADRE
+.section-products-doux-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d0e4ff;
+  padding: 30px 40px;
+  margin: 0 10px;
+  height: 580px;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.07);
+    background-color: #e4efff;
+  }
+  &:hover p,
+  &:hover h4 {
+    display: none;
+  }
+  &:hover .section-products-bottle img {
+    width: 25%;
+  }
+  &:hover .section-products-pique-doux {
+    font-size: 25px;
+  }
+  &:hover .section-products-doux-img img {
+    transform: scale(1.15);
+    animation: rotation 0.5s infinite linear;
+    animation-direction: alternate;
+    @keyframes rotation {
+      from {
+        transform: rotate(-4deg);
+      }
+      to {
+        transform: rotate(4deg);
+      }
+    }
+    top: 510px;
+  }
+}
+.section-products-pique-doux {
+  color: #ff8500;
+}
+
+// moyen
+
+.section-products-moyen-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffdfba;
+  padding: 30px 40px;
+  margin: 0 10px;
+  height: 580px;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.07);
+    background-color: #ffe9cf;
+  }
+  &:hover p,
+  &:hover h4 {
+    display: none;
+  }
+  &:hover .section-products-bottle img {
+    width: 25%;
+  }
+  &:hover .section-products-pique-moyen {
+    font-size: 25px;
+  }
+  &:hover .section-products-moyen-img img {
+    transform: scale(1.15);
+    animation: rotation 0.5s infinite linear;
+    animation-direction: alternate;
+    @keyframes rotation {
+      from {
+        transform: rotate(-4deg);
+      }
+      to {
+        transform: rotate(4deg);
+      }
+    }
+    top: 510px;
+  }
+}
+
+.section-products-pique-moyen {
+  color: #f1674d;
+}
+
+// fort
+
+.section-products-fort-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff2ba;
+  padding: 30px 40px;
+  margin: 0 10px;
+  height: 580px;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.07);
+    background-color: #fff7d5;
+  }
+  &:hover p,
+  &:hover h4 {
+    display: none;
+  }
+  &:hover .section-products-bottle img {
+    width: 25%;
+  }
+  &:hover .section-products-pique-fort {
+    font-size: 25px;
+  }
+  &:hover .section-products-fort-img img {
+    transform: scale(1.15);
+    animation: rotation 0.5s infinite linear;
+    animation-direction: alternate;
+    @keyframes rotation {
+      from {
+        transform: rotate(-4deg);
+      }
+      to {
+        transform: rotate(4deg);
+      }
+    }
+    top: 510px;
+  }
+}
+
+.section-products-pique-fort {
+  color: #d11100;
+}
+// ---- SECTION PRODUITS IMG
+.section-products-doux-img {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 1400px) {
+    margin-top: 0;
+  }
+  margin-top: 20px;
+}
+
+.section-products-doux-img img {
+  width: 50%;
+  position: absolute;
+  top: 520px;
+  transition: transform 0.5s ease;
+}
+
+// moyen
+
+.section-products-moyen-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  @media (max-width: 1400px) {
+    margin-top: 0;
+  }
+}
+.section-products-moyen-img img {
+  width: 50%;
+  position: absolute;
+  top: 520px;
+  transition: transform 0.5s ease;
+}
+
+// fort
+
+.section-products-fort-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  @media (max-width: 1400px) {
+    margin-top: 0;
+  }
+}
+.section-products-fort-img img {
+  width: 50%;
+  position: absolute;
+  top: 520px;
+  transition: transform 0.5s ease;
+}
+
+// ---- SECTION PRODUITS BOUTEILLE
+.section-products-bottle {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.section-products-bottle img {
+  width: 20%;
+}
+
+// ---- SECTION PRODUITS BOUTONS
+
+// fort
+
+.section-products-whitebutton-fort button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: white;
+  color: #1b1b1b;
+  font-family: "NeutraTextTF";
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  text-align: center;
+  width: 215px;
+  height: 25px;
+  margin: 10px 0 5px 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.section-products-whitebutton-info-fort {
+  position: relative;
+  right: -15px;
+}
+
+.section-products-whitebutton-fleche-fort {
+  position: relative;
+  right: -56px;
+  background: none;
+  padding: 7px 10px;
+  transition: background 0.2s ease;
+  &:hover {
+    background: #ffe36b;
+  }
+}
+
+// moyen
+
+.section-products-whitebutton-moyen button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: white;
+  color: #1b1b1b;
+  font-family: "NeutraTextTF";
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  text-align: center;
+  width: 215px;
+  height: 25px;
+  margin: 10px 0 5px 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.section-products-whitebutton-info-moyen {
+  position: relative;
+  right: -15px;
+}
+
+.section-products-whitebutton-fleche-moyen {
+  position: relative;
+  right: -56px;
+  background: none;
+  padding: 7px 10px;
+  transition: background 0.2s ease;
+  &:hover {
+    background: #ffca8d;
+  }
+}
+
+// doux
+
+.section-products-whitebutton-doux button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: white;
+  color: #1b1b1b;
+  font-family: "NeutraTextTF";
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  text-align: center;
+  width: 215px;
+  height: 25px;
+  margin: 10px 0 5px 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.section-products-whitebutton-info-doux {
+  position: relative;
+  right: -15px;
+}
+
+.section-products-whitebutton-fleche-doux {
+  position: relative;
+  right: -56px;
+  background: none;
+  padding: 7px 10px;
+  transition: background 0.2s ease;
+  &:hover {
+    background: #78a7e7;
+  }
+}
+
+// ---- section bouton voir plus/ajouter au panier
+
+.section-products button {
+  z-index: 3;
+}
+
+.section-products-blackbutton-doux {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.section-products-blackbutton-doux button {
+  border: none;
+  background: #1b1b1b;
+  color: #fff5e8;
+  font-family: "NeutraTextTF";
+  font-style: italic;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  text-align: center;
+  padding: 7px 15px;
+  margin: 0 10px;
+}
+
+// moyen
+
+.section-products-blackbutton-moyen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.section-products-blackbutton-moyen button {
+  border: none;
+  background: #1b1b1b;
+  color: #fff5e8;
+  font-family: "NeutraTextTF";
+  font-style: italic;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  text-align: center;
+  padding: 7px 15px;
+  margin: 0 10px;
+}
+
+// fort
+
+.section-products-blackbutton-fort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.section-products-blackbutton-fort button {
+  border: none;
+  background: #1b1b1b;
+  color: #fff5e8;
+  font-family: "NeutraTextTF";
+  font-style: italic;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  text-align: center;
+  padding: 7px 15px;
+  margin: 0 10px;
+}
+
+// ---- seemore button hover
+.section-products-blackbutton-seemore-fort {
+  width: 80px;
+  &:hover {
+    box-shadow: 4px 4px 0px 0px #f4d23c;
+    overflow: hidden;
+  }
+}
+
+.section-products-blackbutton-seemore-moyen {
+  width: 80px;
+  &:hover {
+    box-shadow: 4px 4px 0px 0px #f3a750;
+    overflow: hidden;
+  }
+}
+
+.section-products-blackbutton-seemore-doux {
+  width: 80px;
+  &:hover {
+    box-shadow: 4px 4px 0px 0px #78a7e7;
+    overflow: hidden;
+  }
+}
+
+// ---- basket button hover
+.section-products-blackbutton-basket-fort {
+  &:hover {
+    box-shadow: 4px 4px 0px 0px #f4d23c;
+    overflow: hidden;
+  }
+}
+
+.section-products-blackbutton-basket-moyen {
+  &:hover {
+    box-shadow: 4px 4px 0px 0px #f3a750;
+    overflow: hidden;
+  }
+}
+
+.section-products-blackbutton-basket-doux {
+  &:hover {
+    box-shadow: 4px 4px 0px 0px #78a7e7;
+    overflow: hidden;
+  }
+}
+
+.section-review {
+  display: flex;
+  justify-content: center;
+  background-color: #fefff1;
+}
+
+.section-products-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.section-products-moyen-content,
+.section-products-fort-content,
+.section-products-doux-content {
+  position: relative;
+}

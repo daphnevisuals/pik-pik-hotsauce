@@ -1,0 +1,36 @@
+@import "base";
+@import "layout";
+@import "modules/header";
+@import "modules/section";
+@import "bootstrap/scss/bootstrap-grid";
+@import "modules/footer";
+@import "modules/discovery";
+@import "modules/review";
+@import "swiper/swiper";
+@import "modules/swiper";
+@font-face {
+  font-family: "NeutraTextTF";
+  src: url("./font/NeutraTextTFBold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeutraTextTF";
+  src: url("./font/NeutraTextTFBoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NeutraTextTF";
+  src: url("./font/NeutraTextTFBookItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "NeutraTextTF";
+  src: url("./font/NeutraTextTFBook.otf");
+  font-weight: normal;
+  font-style: normal;
+}
